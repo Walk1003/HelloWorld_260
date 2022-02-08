@@ -26,6 +26,6 @@ public class HelloWorld {
         System.out.println("Enter username");
         
         String username = input.nextLine();
-        System.out.println("Hello " + username);
+        System.out.println(username + " this is not the greatest code in the world, it's just a tribute.");
     }
 }
