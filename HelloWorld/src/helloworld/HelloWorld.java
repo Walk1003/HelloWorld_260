@@ -27,5 +27,6 @@ public class HelloWorld {
         
         String username = input.nextLine();
         System.out.println("Hello " + username);
+        System.out.println("Goodbye " + username);
     }
 }
