@@ -5,6 +5,8 @@
  */
 package helloworld;
 
+import java.util.Scanner;
+
 /**
  *
  * @author workb
@@ -20,6 +22,10 @@ public class HelloWorld {
     
     public static void SaySomething()
     {
-        System.out.println("Hello World");
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter username");
+        
+        String username = input.nextLine();
+        System.out.println("Hello " + username);
     }
 }
